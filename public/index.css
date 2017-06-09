@@ -4,6 +4,7 @@
 
 body {
 
+    background:#bbdefb;
 
 }
   .markdown-body {
@@ -579,7 +580,7 @@ html, body, .main-content {
 
 .slide-state-normal, .main-content {
   width: 95%;
-  height: 70%; }
+  height: 78%; }
 
 .slide-state-fullscreen {
   width: 100%;
