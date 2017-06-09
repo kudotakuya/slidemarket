@@ -4,7 +4,6 @@
 
 body {
 
-background: #777;
 
 }
   .markdown-body {
@@ -562,7 +561,12 @@ html, body, .main-content {
 
 #main-slide {
   margin: 0 auto;
-  display: block; }
+  display: block;
+
+  width: 70%;
+ }
+  
+
 
 .slide-controller {
   width: 70%;
@@ -575,7 +579,7 @@ html, body, .main-content {
 
 .slide-state-normal, .main-content {
   width: 95%;
-  height: 95%; }
+  height: 70%; }
 
 .slide-state-fullscreen {
   width: 100%;
@@ -601,7 +605,10 @@ html, body, .main-content {
   clear: both; }
 
 #main-slide {
-  width: 85%; }
+  width: 70%;
+  height 40%;
+
+ }
 
 .slide-state-fullscreen #main-slide {
   width: 100%; }
