@@ -1,0 +1,37 @@
+{
+  "name": "pdf-slide-html",
+  "description": "generator for slide-pdf.js",
+  "version": "2.1.1",
+  "homepage": "https://github.com/azu/pdf-slide-html/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/pdf-slide-html.git"
+  },
+  "main": "index.js",
+  "bin": {
+    "pdf-slide-html": "bin/cmd.js"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d public/"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/pdf-slide-html/issues"
+  },
+  "dependencies": {
+    "dateformat": "^1.0.12",
+    "get-md-title": "^1.0.4",
+    "marked": "^0.3.2",
+    "mustache": "^2.2.0",
+    "new-element": "0.0.2",
+    "optionator": "^0.6.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.6.0",
+    "github-markdown-css": "^2.1.1"
+  }
+}
